@@ -9,7 +9,6 @@ motor_voz.setProperty('rate', 150) # velocidade da fala
 voz = motor_voz.getProperty('voices')
 motor_voz.setProperty('voice', voz[0].id) # voz feminino
 
-
 arquivo = 'livro1.pdf'
 documento = fitz.open(arquivo)
 texto = ""
